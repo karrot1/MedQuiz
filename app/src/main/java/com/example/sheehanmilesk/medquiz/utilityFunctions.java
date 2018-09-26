@@ -39,14 +39,14 @@ public class utilityFunctions implements Serializable{
             }
             else{
                 Log.d("updateq", "Locstring is " + locstring + "a" + Integer.toString(otheri));
-                answertext = context.getResources().getString(context.getResources().getIdentifier(locstring + "a" + Integer.toString(otheri), "string", context.getPackageName()), otheri);
+                answertext = context.getResources().getString(context.getResources().getIdentifier(locstring + "a" + Integer.toString(otheri), "string", context.getPackageName()), thequestion.getPointvalue(otheri));
             }
         } else {
             if (!finali){
                 answertext = context.getResources().getString(R.string.moresevere, thequestion.getPointvalue(i));
             }
             else{
-                answertext = context.getResources().getString(R.string.moresevere, otheri);
+                answertext = context.getResources().getString(R.string.moresevere, thequestion.getPointvalue(otheri));
             }
         }
         if (selected){

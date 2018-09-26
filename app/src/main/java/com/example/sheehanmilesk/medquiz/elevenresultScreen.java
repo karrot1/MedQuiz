@@ -48,7 +48,7 @@ public class elevenresultScreen extends AppCompatActivity {
         }
         i = 0;
         while (i < questionarray.length){
-            questionpoints = Quiz.getQuestions()[i].getPointvalue();
+            questionpoints = Quiz.getQuestions()[i].getAnswervalue();
             Log.d("updateq", Quiz.getQuizname() + Integer.toString(i+1) + Integer.toString(questionpoints));
             Quiz.getUtilfunc().setAnswerText(i, Quiz.getQuizname() + "q" + Integer.toString(i+1), questionarray, false, getApplicationContext(), true, questionpoints, Quiz.getQuestions()[i]);
             i++;
