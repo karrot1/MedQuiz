@@ -113,7 +113,7 @@ public class eightanswerquestion extends AppCompatActivity {
         if (Quiz.getQuestions().length > Quiz.getCurrentq()) {
             Log.d("updateq", "Qs being updated");
             Log.d("updateq", "Answer number is " + Quiz.getQuestions()[Quiz.getCurrentq()].getAnswerno());
-            if (Quiz.getQuestions()[Quiz.getCurrentq()].getAnswerno() == 8) {
+            //if (Quiz.getQuestions()[Quiz.getCurrentq()].getAnswerno() == 8) {
                 Log.d("updateq", "Inside answer = 8");
                 String locstring = Quiz.getQuestions()[Quiz.getCurrentq()].getLocstring();
                 if (Quiz.getQuestions()[Quiz.getCurrentq()].getDesc()) {
@@ -129,14 +129,18 @@ public class eightanswerquestion extends AppCompatActivity {
                 Log.d("updateq", "Qs being updated");
                 int pointvalue = Quiz.getQuestions()[Quiz.getCurrentq()].getAnswervalue();
                 while (i < answerarray.length) {
-                    if (pointvalue == i) {
-                        utilfunc.setAnswerText( i,null,  answerarray, true, getApplicationContext(), false, 0, Quiz.getQuestions()[Quiz.getCurrentq()]);
+                    if (i < Quiz.getQuestions()[Quiz.getCurrentq()].getAnswerno()) {
+                        if (pointvalue == i) {
+                            utilfunc.setAnswerText(i, null, answerarray, true, getApplicationContext(), false, 0, Quiz.getQuestions()[Quiz.getCurrentq()]);
+                        } else {
+                            utilfunc.setAnswerText(i, null, answerarray, false, getApplicationContext(), false, 0, Quiz.getQuestions()[Quiz.getCurrentq()]);
+                        }
                     } else {
-                        utilfunc.setAnswerText( i,null,  answerarray, false, getApplicationContext(), false, 0, Quiz.getQuestions()[Quiz.getCurrentq()]);
+                        answerarray[i].setVisibility(View.GONE);
                     }
                     i++;
                 }
-            } else if (Quiz.getQuestions()[Quiz.getCurrentq()].getAnswerno() == 5) {
+            /*} else if (Quiz.getQuestions()[Quiz.getCurrentq()].getAnswerno() == 5) {
                 Log.d("updateq", "loading five answer q");
                 Intent intent = new Intent(eightanswerquestion.this, fiveAnswerQuestion.class);
                 intent.putExtra("quiz", Quiz);
@@ -146,12 +150,13 @@ public class eightanswerquestion extends AppCompatActivity {
                 Intent intent = new Intent(eightanswerquestion.this, fouranswerquestion.class);
                 intent.putExtra("quiz", Quiz);
                 startActivity(intent);
-            }else if (Quiz.getQuestions()[Quiz.getCurrentq()].getAnswerno() == 3) {
+            } else if (Quiz.getQuestions()[Quiz.getCurrentq()].getAnswerno() == 3) {
                 Log.d("updateq", "loading 4 answer q");
                 Intent intent = new Intent(eightanswerquestion.this, threeAnswerQuestion.class);
                 intent.putExtra("quiz", Quiz);
                 startActivity(intent);
-            }
+            }*/
+        }
             else{
 
                 Log.d("final", "loading final thing");
@@ -166,6 +171,6 @@ public class eightanswerquestion extends AppCompatActivity {
                     startActivity(intent);
                 }
             }
-        }
+
     }
 }

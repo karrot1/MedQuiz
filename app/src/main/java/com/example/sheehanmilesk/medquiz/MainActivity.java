@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 utilityFunctions utilfunc = new utilityFunctions();
                 quiz cowsquiz = utilfunc.createcows();
-                Intent intent = new Intent(MainActivity.this, fouranswerquestion.class);
+                Intent intent = new Intent(MainActivity.this, eightanswerquestion.class);
                 intent.putExtra("quiz", cowsquiz);
                 startActivity(intent);
             }

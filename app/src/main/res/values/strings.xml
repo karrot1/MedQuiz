@@ -3,9 +3,12 @@
     <string name="testselect">Select Test</string>
     <string name="ciwaartest">CIWA-Ar</string>
     <string name="cowstest">COWS</string>
+    <string name="nortontest">Norton Scale</string>
+    <string name="bradentest">Braden Scale</string>
     <string name="next">Next</string>
     <string name="back">Back</string>
     <string name="moresevere">(More severe symptoms) (%1$d)</string>
+
     <!--CIWA-Ar strings-->
     <!--booze nausea strings-->
     <string name="ciwaarq1">Nausea/vomiting</string>
@@ -14,6 +17,7 @@
     <string name="ciwaarq1a1">Mild nausea and no vomiting (%1$d)</string>
     <string name="ciwaarq1a4">Intermittent nausea with dry heaves (%1$d)</string>
     <string name="ciwaarq1a7">Constant nausea, frequent dry heaves and vomiting (%1$d)</string>
+
     <!--booze tremor strings-->
     <string name="ciwaarq2">Tremor</string>
     <string name="ciwaarq2p2">Arms extended and fingers spread apart</string>
@@ -21,12 +25,14 @@
     <string name="ciwaarq2a1">Not visible, but can be felt fingertip to fingertip (%1$d)</string>
     <string name="ciwaarq2a4">Moderate, with patient\'s arms extended (%1$d)</string>
     <string name="ciwaarq2a7">Severe, even with arms not extended (%1$d)</string>
+
     <!--booze sweats strings-->
     <string name="ciwaarq3">Paroxysmal sweats</string>
     <string name="ciwaarq3a0">No sweat visible (%1$d)</string>
     <string name="ciwaarq3a1">Barely perceptible sweating, palms moist (%1$d)</string>
     <string name="ciwaarq3a4">Beads of sweat obvious on forehead (%1$d)</string>
     <string name="ciwaarq3a7">Drenching sweats (%1$d)</string>
+
     <!--booze Anxiety strings-->
     <string name="ciwaarq4">Anxiety</string>
     <string name="ciwaarq4p2">Ask, \'Do you feel nervous?\'</string>
@@ -34,12 +40,14 @@
     <string name="ciwaarq4a1">Mildly anxious (%1$d)</string>
     <string name="ciwaarq4a4">Moderately anxious, or guarded, so anxiety is inferred (%1$d)</string>
     <string name="ciwaarq4a7">Equivalent to acute panic states as seen in severe delirium or acute schizophrenic reactions (%1$d)</string>
+
     <!--booze agitation strings-->
     <string name="ciwaarq5">Agitation</string>
     <string name="ciwaarq5a0">Normal activity (%1$d)</string>
     <string name="ciwaarq5a1">Somewhat more activity than normal activity (%1$d)</string>
     <string name="ciwaarq5a4">Moderately fidgety and restless (%1$d)</string>
     <string name="ciwaarq5a7">Paces back and forth during most of the interview, or constantly thrashes about (%1$d)</string>
+
     <!--booze tac halucinations strings-->
     <string name="ciwaarq6">Tactile disturbances</string>
     <string name="ciwaarq6p2">Ask, \'Have you any itching, pins and needles sensations, any burning, any numbness, or do you feel bugs crawling on or under your skin?\'</string>
@@ -51,6 +59,7 @@
     <string name="ciwaarq6a5">Severe tactile hallucinations (%1$d)</string>
     <string name="ciwaarq6a6">Extremely severe tactile hallucinations (%1$d)</string>
     <string name="ciwaarq6a7">Continuous tactile hallucinations (%1$d)</string>
+
     <!--booze aud halucination strings-->
     <string name="ciwaarq7">Auditory disturbances</string>
     <string name="ciwaarq7p2">Ask, \'Are you more aware of sounds around you? Are they harsh? Do they frighten you? Are you hearing anything that is disturbing to you? Are you hearing things you know are not there?\'</string>
@@ -62,6 +71,7 @@
     <string name="ciwaarq7a5">Severe auditory hallucinations (%1$d)</string>
     <string name="ciwaarq7a6">Extremely severe auditory hallucinations (%1$d)</string>
     <string name="ciwaarq7a7">Continuous auditory hallucinations (%1$d)</string>
+
     <!--booze halucination strings-->
     <string name="ciwaarq8">Visual disturbances</string>
     <string name="ciwaarq8p2">Ask \'Does the light appear to be too bright? Is its color different? Does it hurt your eyes? Are you seeing things you know are not there?\' </string>
@@ -73,6 +83,7 @@
     <string name="ciwaarq8a5">Severe visual hallucinations (%1$d)</string>
     <string name="ciwaarq8a6">Extremely severe visual hallucinations (%1$d)</string>
     <string name="ciwaarq8a7">Continuous visual hallucinations (%1$d)</string>
+
     <!--booze headache strings-->
     <string name="ciwaarq9">Headache</string>
     <string name="ciwaarq9p2">Ask \'Does your head feel different? Does it feel like there is a band around your head?\' Do not rate for dizziness or lightheadedness. Otherwise, rate \'severity.\'</string>
@@ -84,6 +95,7 @@
     <string name="ciwaarq9a5">Severe headache (%1$d)</string>
     <string name="ciwaarq9a6">Very severe headache (%1$d)</string>
     <string name="ciwaarq9a7">Extremely severe headache (%1$d)</string>
+
     <!--booze clouding strings-->
     <string name="ciwaarq10">Orientation</string>
     <string name="ciwaarq10p2">Ask \'What day is this? Where are you? Who am I?\'</string>
@@ -92,6 +104,7 @@
     <string name="ciwaarq10a2">Disoriented for date by no more than 2 calendar days (%1$d)</string>
     <string name="ciwaarq10a3">Disoriented for date by more than 2 calendar days (%1$d)</string>
     <string name="ciwaarq10a4">Disoriented to place or person (%1$d)</string>
+
     <!--booze result strings-->
     <string name="totalpoints">%1$d Points</string>
     <string name="ciwaar1">Very mild withdrawal</string>
@@ -100,6 +113,7 @@
     <string name="ciwaar4">Severe withdrawal</string>
     <string name="testagain">Repeat this assessment.</string>
     <string name="diftest">Perform a different assessment.</string>
+
     <!--COWS strings-->
     <!--COWS bpm strings-->
     <string name="cowsq1">Resting Pulse Rate (BPM)</string>
@@ -108,6 +122,7 @@
     <string name="cowsq1a1">81-100 (%1$d)</string>
     <string name="cowsq1a2">101-120 (%1$d)</string>
     <string name="cowsq1a3">120 (%1$d)</string>
+
     <!--COWS sweat strings-->
     <string name="cowsq2">Sweating</string>
     <string name="cowsq2p2">Sweating not accounted for by room temperature or patient activity over the last 0.5 hours</string>
@@ -116,18 +131,21 @@
     <string name="cowsq2a2">Flushed or observable moistness on face (%1$d)</string>
     <string name="cowsq2a3">Beads of sweat on brow or face (%1$d)</string>
     <string name="cowsq2a4">Sweat streaming off face (%1$d)</string>
+
     <!--COWS restlessness strings-->
     <string name="cowsq3">Restlessness</string>
     <string name="cowsq3a0">Able to sit still (%1$d)</string>
     <string name="cowsq3a1">Reports difficulty sitting still, but is able to do so (%1$d)</string>
     <string name="cowsq3a2">Frequent shifting or extraneous movements of legs/arms (%1$d)</string>
     <string name="cowsq3a3">Unable to sit still for more than a few seconds (%1$d)</string>
+
     <!--COWS pupil size strings-->
     <string name="cowsq4">Pupil size</string>
     <string name="cowsq4a0">Pupils pinned or normal size for room light (%1$d)</string>
     <string name="cowsq4a1">Pupils possibly larger than normal for room light (%1$d)</string>
     <string name="cowsq4a2">Pupils moderately dilated (%1$d)</string>
     <string name="cowsq4a3">Pupils so dilated that only the rim of the iris is visible (%1$d)</string>
+
     <!--COWS bone aches strings-->
     <string name="cowsq5">Bone or joint aches</string>
     <string name="cowsq5p2">If patient was having pain previously, only the additional component attributed to opiate withdrawal is scored</string>
@@ -135,6 +153,7 @@
     <string name="cowsq5a1">Mild diffuse discomfort (%1$d)</string>
     <string name="cowsq5a2">Patient reports severe diffuse aching of joints/muscles (%1$d)</string>
     <string name="cowsq5a3">Patient is rubbing joints or muscles and is unable to sit still because of discomfort (%1$d)</string>
+
     <!--COWS runny nose strings-->
     <string name="cowsq6">Runny nose or tearing</string>
     <string name="cowsq6p2">Not accounted for by cold symptoms or allergies</string>
@@ -142,6 +161,7 @@
     <string name="cowsq6a1">Nasal stuffiness or unusually moist eyes (%1$d)</string>
     <string name="cowsq6a2">Nose running or tearing (%1$d)</string>
     <string name="cowsq6a3">Nose constantly running or tears streaming down cheeks (%1$d)</string>
+
     <!--COWS GI upset strings-->
     <string name="cowsq7">GI Upset</string>
     <string name="cowsq7p2">Over last 0.5 hours</string>
@@ -150,35 +170,134 @@
     <string name="cowsq7a2">Nausea or loose stool (%1$d)</string>
     <string name="cowsq7a3">Vomiting or diarrhea (%1$d)</string>
     <string name="cowsq7a4">Multiple episodes of vomiting or diarrhea (%1$d)</string>
+
     <!--COWS tremor strings-->
     <string name="cowsq8">Tremor observation of outstretched hands</string>
     <string name="cowsq8a0">No tremor (%1$d)</string>
     <string name="cowsq8a1">Tremor can be felt, but not observed (%1$d)</string>
     <string name="cowsq8a2">Slight tremor observable (%1$d)</string>
     <string name="cowsq8a3">Gross tremor or muscle twitching (%1$d)</string>
+
     <!--COWS yawning strings-->
     <string name="cowsq9">Yawning observation during assessment</string>
     <string name="cowsq9a0">No yawning (%1$d)</string>
     <string name="cowsq9a1">Yawning once or twice during assessment (%1$d)</string>
     <string name="cowsq9a2">Yawining three or more times during assment (%1$d)</string>
     <string name="cowsq9a3">Yawning several times/minute (%1$d)</string>
+
     <!--COWS anxity strings-->
     <string name="cowsq10">Anxiety or irritability</string>
     <string name="cowsq10a0">None (%1$d)</string>
     <string name="cowsq10a1">Patient reports increasing irritability or anxiousness (%1$d)</string>
     <string name="cowsq10a2">Patient obviously irritable/anxious (%1$d)</string>
     <string name="cowsq10a3">Patient so irritable or anxious that participation in the assessment is difficult (%1$d)</string>
+
     <!--COWS gosseflesh strings-->
     <string name="cowsq11">Gooseflesh skin</string>
     <string name="cowsq11a0">Skin is smooth (%1$d)</string>
     <string name="cowsq11a1">Piloerection of skin can be felt or hairs standing up on arms (%1$d)</string>
     <string name="cowsq11a2">Prominent piloerection (%1$d)</string>
-    <!--cows result strings-->\
+
+    <!--cows result strings-->
     <string name="cows1">Very mild withdrawal</string>
     <string name="cows2">Mild withdrawal</string>
     <string name="cows3">Moderate withdrawal</string>
     <string name="cows4">Moderately severe withdrawal</string>
     <string name="cows5">Severe withdrawal</string>
+
+    <!--Norton strings-->
+    <!--Norton pysical condition strings-->
+    <string name="nortonq1">Physical Condition</string>
+    <string name="nortonq1a0">Good (%1$d)</string>
+    <string name="nortonq1a1">Fair (%1$d)</string>
+    <string name="nortonq1a2">Poor (%1$d)</string>
+    <string name="nortonq1a3">Very Bad (%1$d)</string>
+
+    <!--Norton mental condition strings-->
+    <string name="nortonq2">Mental Condition</string>
+    <string name="nortonq2a0">Alert (%1$d)</string>
+    <string name="nortonq2a1">Apathetic (%1$d)</string>
+    <string name="nortonq2a2">Confused (%1$d)</string>
+    <string name="nortonq2a3">Stuporous (%1$d)</string>
+
+    <!--Norton activity strings-->
+    <string name="nortonq3">activity</string>
+    <string name="nortonq3a0">Ambulant (%1$d)</string>
+    <string name="nortonq3a1">Walks with help (%1$d)</string>
+    <string name="nortonq3a2">Chairbound (%1$d)</string>
+    <string name="nortonq3a3">Bedridden (%1$d)</string>
+
+    <!--Norton mobility strings-->
+    <string name="nortonq4">Mobility</string>
+    <string name="nortonq4a0">Full (%1$d)</string>
+    <string name="nortonq4a1">Slightly Impaired (%1$d)</string>
+    <string name="nortonq4a2">Very Limited (%1$d)</string>
+    <string name="nortonq4a3">Immobile (%1$d)</string>
+
+    <!--Norton incontinance strings-->
+    <string name="nortonq5">Incontinence</string>
+    <string name="nortonq5a0">None (%1$d)</string>
+    <string name="nortonq5a1">Occasional (%1$d)</string>
+    <string name="nortonq5a2">Usually urinary (%1$d)</string>
+    <string name="nortonq5a3">Urinary and fecal (%1$d)</string>
+
+    <!--Norton result strings-->
+    <string name="norton1">Low risk</string>
+    <string name="norton2">Medium risk</string>
+    <string name="norton3">High risk</string>
+    <string name="norton4">Very high risk</string>
+
+    <!--Braden strings-->
+    <!--Braden sensory strings-->
+    <string name="bradenq1">Sensory Perception</string>
+    <string name="bradenq1p2">Ability to respond meaningfully to pressure-related discomfort</string>
+    <string name="bradenq1a0">No impairment (%1$d)</string>
+    <string name="bradenq1a1">Slightly limited (%1$d)</string>
+    <string name="bradenq1a2">Very limited (%1$d)</string>
+    <string name="bradenq1a3">Completely limited (%1$d)</string>
+
+    <!--Braden moisture strings-->
+    <string name="bradenq2">Moisture</string>
+    <string name="bradenq2p2">Degree to which the skin is exposed to moisture</string>
+    <string name="bradenq2a0">Rarely moist (%1$d)</string>
+    <string name="bradenq2a1">Occasionaly moist (%1$d)</string>
+    <string name="bradenq2a2">Often moist (%1$d)</string>
+    <string name="bradenq2a3">Constantly moist (%1$d)</string>
+
+    <!--Braden activity strings-->
+    <string name="bradenq3">Activity</string>
+    <string name="bradenq3p2">Degree of physical activity</string>
+    <string name="bradenq3a0">Walks frequently (%1$d)</string>
+    <string name="bradenq3a1">Walks occasionaly (%1$d)</string>
+    <string name="bradenq3a2">Chairfast (%1$d)</string>
+    <string name="bradenq3a3">Bedfast (%1$d)</string>
+
+    <!--Braden mobility strings-->
+    <string name="bradenq4">Mobility</string>
+    <string name="bradenq4p2">Ability to change and control body posistion</string>
+    <string name="bradenq4a0">No limitations(%1$d)</string>
+    <string name="bradenq4a1">Slightly limited (%1$d)</string>
+    <string name="bradenq4a2">Very limited (%1$d)</string>
+    <string name="bradenq4a3">Completely immobile (%1$d)</string>
+
+    <!--Braden nutrition strings-->
+    <string name="bradenq5">Nutrition</string>
+    <string name="bradenq5p2">Usual food intake pattern</string>
+    <string name="bradenq5a0">Excelent (%1$d)</string>
+    <string name="bradenq5a1">Adequate (%1$d)</string>
+    <string name="bradenq5a2">Probably inadequate (%1$d)</string>
+    <string name="bradenq5a3">Very poor (%1$d)</string>
+
+    <!--Braden friction strings-->
+    <string name="bradenq6">Friction and sheer</string>
+    <string name="bradenq6a0">No apparent problem (%1$d)</string>
+    <string name="bradenq6a1">Potential problem (%1$d)</string>
+    <string name="bradenq6a2">Problem (%1$d)</string>
+
+    <!--Braden result strings-->
+    <string name="braden1">Low risk</string>
+    <string name="braden2">High risk</string>
+
 
 
 </resources>

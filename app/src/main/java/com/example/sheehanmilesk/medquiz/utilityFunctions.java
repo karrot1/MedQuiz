@@ -7,7 +7,7 @@ import android.text.SpannableString;
 import android.text.style.StyleSpan;
 import android.util.Log;
 import android.widget.Button;
-
+import android.view.View;
 import java.io.Serializable;
 
 public class utilityFunctions implements Serializable{
@@ -59,6 +59,7 @@ public class utilityFunctions implements Serializable{
             answerarray[i].setBackgroundResource(android.R.drawable.btn_default);
             answerarray[i].setText(answertext);
         }
+        answerarray[i].setVisibility(View.VISIBLE);
     }
     public void setAnswer(quiz Quiz, Button[] answerarray, int newvalue, Context context){
         Quiz.addPoints(Quiz.getQuestions()[Quiz.getCurrentq()].getPointvalue(newvalue));
@@ -120,5 +121,43 @@ public class utilityFunctions implements Serializable{
         quiz cowsquiz = new quiz(questionarray, quizname, scale, this);
         return cowsquiz;
     }
+    public quiz createNorton(){
+        String quizname = "norton";
+        int[] scale = new int[4];
+        scale[0] = 10;
+        scale[1] = 14;
+        scale[2] = 18;
+        scale[3] = 100;
+        int[] four321 = new int[]{4, 3, 2, 1};
+        question[] questionarray = new question[5];
+        questionarray[0] = new question(4, "nortonq1", quizname, fournosevere, false, four321);
+        questionarray[1] = new question(4, "nortonq2", quizname, fournosevere, false, four321);
+        questionarray[2] = new question(4, "nortonq3", quizname, fournosevere, false, four321);
+        questionarray[3] = new question(4, "nortonq4", quizname, fournosevere, false, four321);
+        questionarray[4] = new question(4, "nortonq5", quizname, fournosevere, false, four321);
+        quiz nortonquiz = new quiz(questionarray, quizname, scale, this);
+        return nortonquiz;
+    }
+    public quiz createBraden(){
+        String quizname = "braden";
+        int[] scale = new int[5];
+        scale[0] = 9;
+        scale[1] = 12;
+        scale[2] = 14;
+        scale[3] = 18;
+        scale[4] = 100;
+        int[] four321 = new int[]{4, 3, 2, 1};
+        int[] three21 = new int[]{3, 2, 1};
+        question[] questionarray = new question[6];
+        questionarray[0] = new question(4, "bradenq1", quizname, fournosevere, true, four321);
+        questionarray[1] = new question(4, "bradenq2", quizname, fournosevere, true, four321);
+        questionarray[2] = new question(4, "bradenq3", quizname, fournosevere, true, four321);
+        questionarray[3] = new question(4, "bradenq4", quizname, fournosevere, true, four321);
+        questionarray[4] = new question(4, "bradenq5", quizname, fournosevere, true, four321);
+        questionarray[5] = new question(3, "bradenq7", quizname, fournosevere, false, three21);
+        quiz nortonquiz = new quiz(questionarray, quizname, scale, this);
+        return nortonquiz;
+    }
+
 
 }
