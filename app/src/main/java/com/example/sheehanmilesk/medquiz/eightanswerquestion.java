@@ -160,16 +160,10 @@ public class eightanswerquestion extends AppCompatActivity {
             else{
 
                 Log.d("final", "loading final thing");
-                if (Quiz.getQuestions().length == 10){
-                    Intent intent = new Intent(eightanswerquestion.this, resultScreen.class);
-                    intent.putExtra("quiz", Quiz);
-                    startActivity(intent);
-                }
-                else if (Quiz.getQuestions().length == 11){
-                    Intent intent = new Intent(eightanswerquestion.this, elevenresultScreen.class);
-                    intent.putExtra("quiz", Quiz);
-                    startActivity(intent);
-                }
+                Intent intent = new Intent(eightanswerquestion.this, elevenresultScreen.class);
+                intent.putExtra("quiz", Quiz);
+                startActivity(intent);
+
             }
 
     }

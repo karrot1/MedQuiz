@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button boozetest = (Button) findViewById(R.id.ciwaar);
         Button cows = (Button) findViewById(R.id.cows);
+        Button norton = findViewById(R.id.norton);
+        Button braden = findViewById(R.id.braden);
         boozetest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,6 +35,26 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 utilityFunctions utilfunc = new utilityFunctions();
                 quiz cowsquiz = utilfunc.createcows();
+                Intent intent = new Intent(MainActivity.this, eightanswerquestion.class);
+                intent.putExtra("quiz", cowsquiz);
+                startActivity(intent);
+            }
+        });
+        norton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                utilityFunctions utilfunc = new utilityFunctions();
+                quiz cowsquiz = utilfunc.createNorton();
+                Intent intent = new Intent(MainActivity.this, eightanswerquestion.class);
+                intent.putExtra("quiz", cowsquiz);
+                startActivity(intent);
+            }
+        });
+        braden.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                utilityFunctions utilfunc = new utilityFunctions();
+                quiz cowsquiz = utilfunc.createBraden();
                 Intent intent = new Intent(MainActivity.this, eightanswerquestion.class);
                 intent.putExtra("quiz", cowsquiz);
                 startActivity(intent);
