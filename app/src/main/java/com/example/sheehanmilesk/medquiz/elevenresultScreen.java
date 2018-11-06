@@ -138,18 +138,10 @@ public class elevenresultScreen extends AppCompatActivity {
         again.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (Quiz.getQuizname().equals("ciwaar")) {
                     quiz quiz = Quiz.getUtilfunc().createboozequiz();
                     Intent intent = new Intent(elevenresultScreen.this, eightanswerquestion.class);
                     intent.putExtra("quiz", quiz);
                     startActivity(intent);
-                }
-                else if (Quiz.getQuizname().equals("cows")) {
-                    quiz quiz = Quiz.getUtilfunc().createcows();
-                    Intent intent = new Intent(elevenresultScreen.this, fouranswerquestion.class);
-                    intent.putExtra("quiz", quiz);
-                    startActivity(intent);
-                }
             }
         });
         diftest.setOnClickListener(new View.OnClickListener() {
